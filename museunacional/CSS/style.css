@@ -1,0 +1,408 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+header{
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+}
+
+nav ul{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+nav ul li{
+  padding: 10px;
+}
+
+nav ul a{
+  color: #AF670A;
+  text-transform: uppercase;
+}
+
+nav ul a:hover{
+  border-bottom: 1px solid #cdc8b1;
+  padding-bottom: 5px; 
+  color: #227115;
+}
+
+#principal {
+  width: 80%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#conteudo{
+  width: 68%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; 
+  -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+}
+article{
+  width: 45%;
+  margin-bottom: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+article.imagem{
+  width: 100%;
+}
+article img{
+  width: 100%;
+}
+article iframe{
+  width: 100%;  
+  min-height: 250px;
+}
+article h4{
+  color: #227115;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+article ul{
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><circle fill="brown" cx="7" cy="7" r="2"/></svg>');
+  margin-left: 30px;
+}
+article li{
+  text-align: justify;
+}
+article a, footer a{
+  color: #AF670A;
+}
+article a:hover, article li:hover, footer a:hover{
+  color: #227115;
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><circle fill="green" cx="7" cy="7" r="2"/></svg>');
+}
+article p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+aside {
+  width: 30%;
+  min-width: 90px;
+  background: #ebe7dd;
+}
+aside img{
+  width: 100%;
+}
+
+aside h4{
+  color: #86521a;
+  margin-bottom: 8px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+aside form {
+  margin: 15px 0; 
+  padding: 15px;
+  background: #cdc8b1;
+  text-align: center;
+}
+
+aside form label{
+  font-size: 0.8em;
+  margin: 4px 0;
+}
+aside input{
+  margin: 4px 0;
+}
+aside input#data {
+  width: 50%;  
+}
+aside input#qtd {
+  width: 15%;
+}
+aside input#enviar {
+  width: 100%;
+  line-height: 35px;
+  background-color: #9b9271;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+aside article.galeria{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+aside section{
+  width: 40%;    
+  min-width: 126px;
+  min-height: 133px;
+  background: url(../imagens/fundo-foto.png) no-repeat center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+aside section img{
+  width: 75%;  
+}
+footer{
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(../imagens/fundo-rodape.png) no-repeat center top;  
+}
+footer nav ul{
+  width: 50%;
+  font-size: 0.7em;
+  padding: 0;
+  margin: 0 auto;
+}
+footer nav ul a{
+  font-weight: bold;
+}
+footer nav ul a:hover{
+  border: none;
+}
+
+@media (max-width: 600px){
+  header{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    width: 100%;
+  }
+  nav ul{
+    margin-top: 10px; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;    
+  }  
+  nav li a{
+    font-size: 0.8em;
+  }
+  #principal{
+    width: 100%;
+    margin: 20px 0 20px 4px; 
+  }
+  #conteudo{
+    width: 65%;
+  }
+  article{
+    width: 100%;
+  }
+  article iframe{
+  width: 100%;  
+  min-height: 150px;
+}
+  aside article.galeria{
+  padding: 0;
+  }
+  aside section{
+    background: url(../imagens/fundo-foto-cel.png) no-repeat center;
+    width: 90%;
+    min-width: 88px;
+    min-height: 93px;
+  }
+  aside section img{
+    width: 68px;  
+  }
+  aside form {
+    margin: 8px 0; 
+    padding: 5px;
+    text-align: left;
+  }
+  aside form label{
+    display: inline-block;
+    margin: 2px 0;
+  }
+  aside input{
+    margin: 2px 0;
+  }
+  aside input#data {
+    width: 100%;
+    font-size: 0.9em;  
+  }
+  aside input#enviar {
+    font-size: 0.5em;
+    line-height: 30px;
+  }
+
+  footer{
+  padding: 15px 5px 5px 5px;
+  width: 100%; 
+  background-size: contain;
+}
+footer nav ul{
+  width: 100%;
+  font-size: 0.5em;
+}
+}
+
+@media (max-width: 359px){
+  #conteudo{
+    width: 60%;
+  }
+  }
+
+@media (max-width: 300px){
+  #conteudo{
+    width: 60%;
+  }
+  nav{
+    font-size: 0.8em;
+  }
+  }
+
+@media (max-width: 1100px){
+  header{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+    width: 100%;
+  }
+  nav ul{
+    margin-top: 10px; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;    
+  }  
+  nav li a{
+    font-size: 0.8em;
+  }
+  #principal{
+    width: 100%;
+    margin: 20px 0 20px 4px; 
+  }
+  #conteudo{
+    width: 65%;
+  }
+  article{
+    width: 100%;
+  }
+  article iframe{
+  width: 100%;  
+  min-height: 250px;
+} 
+  
+  aside section img{
+    width: 68px;  
+  }
+  aside form {
+    margin: 8px 0; 
+    padding: 5px;
+    text-align: left;
+  }
+  aside form label{
+    display: inline-block;
+    margin: 2px 0;
+  }
+  aside input{
+    margin: 2px 0;
+  }
+  aside input#data {
+    width: 100%;
+    font-size: 0.9em;  
+  }
+  aside input#enviar {
+    font-size: 0.5em;
+    line-height: 30px;
+  }
+
+  footer{
+  padding: 15px 5px 5px 5px;
+  width: 100%; 
+  background-size: contain;
+}
+footer nav ul{
+  width: 100%;
+  font-size: 0.5em;
+}
+}

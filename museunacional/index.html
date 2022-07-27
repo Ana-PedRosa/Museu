@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Museu Nacional</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/normalize.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <![endif]-->    
+  </head>
+  <body>
+    <div id="tudo">
+      <header>
+        <img src="imagens/logo.png">      
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Exposições</a></li>
+            <li><a href="index.html">Pesquisa</a></li>
+            <li><a href="index.html">Acervo</a></li>
+            <li><a href="index.html">Vídeos</a></li>
+            <li><a href="index.html">Fotos</a></li>
+            <li><a href="index.html">Contatos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="principal">
+        <div id="conteudo">
+          <article class="imagem">
+            <img src="imagens/museu.png">
+          </article>
+          <article class="video">
+            <h4> Vídeo: Conheça o museu</h4>
+            <iframe src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </article>
+          <article class="mapa">
+            <h4> Mapa: Encontre o museu </h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.905760000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1596293693490!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </article>
+          <article class="links">
+            <h4> Exposições </h4>
+            <ul>
+              <li><a href="index.html">Os assustadores insetos</a></li>
+              <li><a href="index.html">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+              <li><a href="index.html">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+              <li><a href="index.html">Plantas do Brasil Central</a></li>
+              <li><a href="index.html">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+              <li><a href="index.html">Arte Com Dinossauros - Paleoarte</a></li>
+              <li><a href="index.html">Veja todos (65)</a></li>
+            </ul>
+          </article>
+          <article>
+            <h4>200 ANOS DE HISTÓRIA</h4>
+            <p>Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.</p>
+            <a href="index.html">Leia mais</a>
+          </article>
+        </div>
+        <aside>
+          <img src="imagens/depoimento.png">
+          <form>
+            <h4> Faça uma visita </h4>
+            <label for="data"> Data </label>
+            <input type="date" name="date" id="data" required="required"><br>
+            <label for="qtd"> Qtd de pessoas </label>
+            <input type="number" name="number" id="qtd" min="1" max="10"><br>
+            <input type="submit" id="enviar" value="Verificar disponibilidade">
+          </form>
+          <article class="galeria">
+            <h4>Galeria de Fotos</h4>
+            <section>
+              <img src="imagens/imagem1.jpg">
+            </section>
+            <section>
+              <img src="imagens/imagem2.jpg">
+            </section>
+            <section>
+              <img src="imagens/imagem3.jpg">
+            </section>
+            <section>
+              <img src="imagens/imagem4.jpg">
+            </section>
+            <section>
+              <img src="imagens/imagem5.jpg">
+            </section>
+            <section>  
+              <img src="imagens/imagem6.jpg">
+            </section>
+          </article>
+        </aside>      
+      </div>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Exposições</a></li>
+            <li><a href="index.html">Pesquisa</a></li>
+            <li><a href="index.html">Acervo</a></li>
+            <li><a href="index.html">Vídeos</a></li>
+            <li><a href="index.html">Fotos</a></li>
+            <li><a href="index.html">Contatos</a></li>
+          </ul>
+          <p>2019 <a href="index.html"> Museu Nacional</a> - Todos os direitos reservados.</p>
+          <p> Exercício proposto pelo curso: 
+          <a href="https://www.udemy.com/course/web-completo/"> Desenvolvimento Web Completo </a> da Udemy.</p>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
